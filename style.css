@@ -59,3 +59,166 @@ img{
     font-size: 14px;
     font-weight: 300;
 }
+
+.dsmeta-container{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.dsmeta-card{
+    padding: 30px 10px;
+    border-radius: 10px;
+   
+    background-color: #283142;
+}
+
+.dsmeta-card img{
+    width: 45px;
+    height: 45px;
+}
+
+.dsmeta-card h2{
+    color: #676fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#sessao-vendas{
+    padding: 40px 10px;
+}
+
+.dsmeta-form{
+    width: 100%;
+    height: 46px;
+    border: 1px solid #384459;
+    color: #9AAABE;
+    background-color: #1B2531;
+    font-size: 18px;
+    padding: 0 20px;
+
+}   
+
+ 
+/*.dsmeta-form-container{
+     max-width: 300px;
+     margin-bottom: 16px;
+}   */ 
+
+
+.dsmeta-table{
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.dsmeta-table thead{
+    font-size: 16px;
+    font-weight: 700;
+    height: 55px;
+    color: #E9E9E9;
+}
+
+.dsmeta-table tbody{
+    font-size: 14px;
+    font-weight: 400;
+    color: #CFCFCF;
+    text-align: center;
+}
+
+.dsmeta-table tbody tr:nth-child(odd){
+    background-color: #242C3B;
+
+}
+
+
+
+.dsmeta-table tbody tr{
+   height: 74px;
+   border-top: 1px solid #5F6E82;
+}  
+
+.dsmeta-table tbody tr:hover > td{
+      background-color: #242C3B;
+ }
+ 
+.btn-container{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+} 
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #FF6B72;
+    background: rgba(255, 107, 114, 0.1);;
+} 
+
+.btn img{
+    width: 18.89px;
+    height: 21.34px;
+}
+
+
+.dsmeta-form-caixa{
+    max-width: 300px;
+    margin-bottom: 16px;
+}
+
+.tittle01{
+    display: none;
+}
+
+.tittle02{
+    display: none;
+}
+
+.tittle04{
+    display: none;
+}
+
+.tittle05{
+    display: none;
+}
+
+
+@media (min-width:900px){
+      
+    .tittle01{
+        display:table-cell;
+    }
+    
+    .tittle02{
+        display:table-cell;
+    }
+    
+    .tittle04{
+        display:table-cell;
+    }
+    
+    .tittle05{
+        display:table-cell;
+    }
+}
+
+
+@media(min-width:536px){
+      
+    .tittle02{
+        display:table-cell;
+    }
+
+    .dsmeta-table tbody{
+       font-size: 18px;
+       
+    }
+       
+}
+
+
